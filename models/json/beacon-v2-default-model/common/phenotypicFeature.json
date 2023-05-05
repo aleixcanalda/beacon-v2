@@ -1,10 +1,10 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "definitions": {},
+    "$defs": {},
     "description": "Used to describe a phenotype that characterizes the subject or biosample.",
     "properties": {
         "evidence": {
-            "$ref": "./evidence.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/evidence.json",
             "description": "The evidence for an assertion of the observation of a type. RECOMMENDED."
         },
         "excluded": {
@@ -53,15 +53,15 @@
             "type": "string"
         },
         "onset": {
-            "$ref": "./timeElement.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/timeElement.json",
             "description": "Age or time at which the feature was first observed."
         },
         "resolution": {
-            "$ref": "./timeElement.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/timeElement.json",
             "description": "Age or time at which the feature resolved or abated."
         },
         "severity": {
-            "$ref": "./commonDefinitions.json#/definitions/SeverityLevel",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/SeverityLevel",
             "examples": [
                 {
                     "id": "HP:0012828",

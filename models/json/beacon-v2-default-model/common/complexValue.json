@@ -1,10 +1,10 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "definitions": {
+    "$defs": {
         "TypedQuantity": {
             "properties": {
                 "quantity": {
-                    "$ref": "./quantity.json",
+                    "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/quantity.json",
                     "description": "Quantity denoting the outcome of the measurement",
                     "example": {
                         "quentity": {

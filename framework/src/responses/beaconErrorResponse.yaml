@@ -4,9 +4,9 @@ description: >-
   An unsuccessful operation.
 properties:
   meta:
-    $ref: ./sections/beaconResponseMeta.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/sections/beaconResponseMeta.yaml
   error:
-    $ref: ../common/beaconCommonComponents.yaml#/definitions/BeaconError
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/BeaconError
 required:
   - meta
   - error

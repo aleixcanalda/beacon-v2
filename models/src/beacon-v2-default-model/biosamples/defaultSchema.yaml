@@ -82,7 +82,7 @@ properties:
     description: Ontology value from NCIT Intervention or Procedure ontology term
       (NCIT:C25218) describing the procedure for sample obtention, e.g. NCIT:C15189
       (biopsy).
-    $ref: ../common/procedure.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/procedure.yaml
     examples:
       - code:
           id: NCIT:C15189
@@ -143,12 +143,12 @@ properties:
     description: List of phenotypic abnormalities of the sample. RECOMMENDED.
     type: array
     items:
-      $ref: ../common/phenotypicFeature.yaml
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/phenotypicFeature.yaml
   measurements:
     description: List of measurements of the sample.
     type: array
     items:
-      $ref: ../common/measurement.yaml
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/measurement.yaml
   sampleProcessing:
     description: Status of how the specimen was processed,e.g. a child term of EFO:0009091.
     $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/ontologyTerm.json

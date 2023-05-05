@@ -3,14 +3,14 @@
     "description": "Meta section of the Beacon request. It includes request context details relevant for the Beacon server when processing the request.",
     "properties": {
         "$schema": {
-            "$ref": "../common/beaconCommonComponents.json#/definitions/$schema"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/$schema"
         },
         "apiVersion": {
-            "$ref": "../common/beaconCommonComponents.json#/definitions/ApiVersion",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/ApiVersion",
             "description": "API version expected by the client to be supported by the server and used in the response format."
         },
         "requestedSchemas": {
-            "$ref": "../common/beaconCommonComponents.json#/definitions/ListOfSchemas",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/ListOfSchemas",
             "description": "Set of schemas to be used in the response."
         }
     },

@@ -4,10 +4,10 @@
     "description": "An unsuccessful operation.",
     "properties": {
         "error": {
-            "$ref": "../common/beaconCommonComponents.json#/definitions/BeaconError"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/BeaconError"
         },
         "meta": {
-            "$ref": "./sections/beaconResponseMeta.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/responses/sections/beaconResponseMeta.json"
         }
     },
     "required": [

@@ -24,7 +24,7 @@ paths:
           $ref: '#/components/responses/infoOKResponse'
         default:
           description: An unsuccessful operation.
-          $ref: ./responses/beaconErrorResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconErrorResponse.yaml
   /info:
     parameters:
       - $ref: '#/components/parameters/requestedSchema'
@@ -38,7 +38,7 @@ paths:
           $ref: '#/components/responses/infoOKResponse'
         default:
           description: An unsuccessful operation.
-          $ref: ./responses/beaconErrorResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconErrorResponse.yaml
   /service-info:
     get:
       description: Get information about the beacon using GA4GH ServiceInfo format
@@ -51,7 +51,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ./responses/ga4gh-service-info-1-0-0-schema.yaml
+                $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/ga4gh-service-info-1-0-0-schema.yaml
   /configuration:
     get:
       description: TBD
@@ -65,10 +65,10 @@ paths:
             application/json:
               schema:
                 description: Response of a request for information about a Beacon
-                $ref: ./responses/beaconConfigurationResponse.yaml
+                $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconConfigurationResponse.yaml
         default:
           description: An unsuccessful operation.
-          $ref: ./responses/beaconErrorResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconErrorResponse.yaml
   /map:
     get:
       description: TBD
@@ -83,10 +83,10 @@ paths:
             application/json:
               schema:
                 description: Response of a request for information about a Beacon
-                $ref: ./responses/beaconMapResponse.yaml
+                $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconMapResponse.yaml
         default:
           description: An unsuccessful operation.
-          $ref: ./responses/beaconErrorResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconErrorResponse.yaml
   /entry_types:
     get:
       description: TBD
@@ -101,10 +101,10 @@ paths:
             application/json:
               schema:
                 description: Response of a request for information about a Beacon
-                $ref: ./responses/beaconEntryTypesResponse.yaml
+                $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconEntryTypesResponse.yaml
         default:
           description: An unsuccessful operation.
-          $ref: ./responses/beaconErrorResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconErrorResponse.yaml
   /filtering_terms:
     parameters:
       - $ref: '#/components/parameters/skip'
@@ -116,10 +116,10 @@ paths:
         - Informational endpoints
       responses:
         '200':
-          $ref: ./responses/beaconFilteringTermsResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconFilteringTermsResponse.yaml
         default:
           description: An unsuccessful operation.
-          $ref: ./responses/beaconErrorResponse.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconErrorResponse.yaml
 components:
   responses:
     infoOKResponse:
@@ -128,7 +128,7 @@ components:
         application/json:
           schema:
             description: Response of a request for information about a Beacon.
-            $ref: ./responses/beaconInfoResponse.yaml
+            $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/beaconInfoResponse.yaml
   parameters:
     requestedSchema:
       name: requestedSchema
@@ -143,9 +143,9 @@ components:
       name: skip
       in: query
       schema:
-        $ref: ./common/beaconCommonComponents.yaml#/definitions/Skip
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Skip
     limit:
       name: limit
       in: query
       schema:
-        $ref: ./common/beaconCommonComponents.yaml#/definitions/Limit
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Limit

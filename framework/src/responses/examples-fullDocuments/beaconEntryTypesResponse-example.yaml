@@ -6,7 +6,7 @@ meta:
     - entityType: info
       schema: beacon-map-v2.0.0
 response:
-  $schema: ../../configuration/entryTypesSchema.json
+  $schema: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/configuration/entryTypesSchema.json
   entryTypes:
     dataset:
       id: dataset
@@ -20,13 +20,13 @@ response:
       defaultSchema:
         id: datasetDefaultSchema
         name: Default schema for datasets
-        referenceToSchemaDefinition: ./datasets/defaultSchema.json
+        referenceToSchemaDefinition: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/defaultSchema.json
         schemaVersion: v.2
       aCollectionOf:
         - id: exampleEntry
           name: Example entries
       endpoint: /datasets
-      filteringTermsReference: ./datasets/filteringTerms.json
+      filteringTermsReference: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/filteringTerms.json
       additionallySupportedSchemas: []
     exampleEntry:
       id: exampleEntry

@@ -3,10 +3,10 @@
     "description": "Payload definition for the \"count\" response.",
     "properties": {
         "exists": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/Exists"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/Exists"
         },
         "numTotalResults": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/NumTotalResults",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/NumTotalResults",
             "description": "Total number of results."
         }
     },

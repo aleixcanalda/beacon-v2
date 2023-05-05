@@ -5,7 +5,7 @@ type: object
 properties:
   start:
     description: Represents age as an ISO8601 duration (e.g., P18Y).
-    $ref: ./age.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/age.yaml
   end:
     description: Represents age as an ISO8601 duration (e.g., P59Y).
-    $ref: ./age.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/age.yaml

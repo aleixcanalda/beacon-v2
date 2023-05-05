@@ -3,7 +3,7 @@
     "description": "Diseases diagnosed e.g. to an individual, defined by diseaseID, age of onset, stage, level of severity, outcome and the presence of family history. Similarities to GA4GH Phenopackets v2 `Disease`",
     "properties": {
         "ageOfOnset": {
-            "$ref": "./timeElement.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/timeElement.json",
             "examples": [
                 {
                     "ageGroup": {
@@ -66,7 +66,7 @@
             "type": "string"
         },
         "severity": {
-            "$ref": "./commonDefinitions.json#/definitions/SeverityLevel",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/SeverityLevel",
             "examples": [
                 {
                     "id": "HP:0012828",

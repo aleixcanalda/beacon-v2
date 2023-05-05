@@ -4,11 +4,11 @@ description: >-
 type: object
 properties:
   beaconId:
-    $ref: ../../common/beaconCommonComponents.yaml#/definitions/BeaconId
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/BeaconId
   apiVersion:
-    $ref: ../../common/beaconCommonComponents.yaml#/definitions/ApiVersion
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/ApiVersion
   returnedSchemas:
-    $ref: ../../common/beaconCommonComponents.yaml#/definitions/ListOfSchemas
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/ListOfSchemas
 $comment: 'TO REVIEW: the required properties below results in a warning in the example.'
 required:
   - beaconId

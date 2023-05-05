@@ -4,13 +4,13 @@ description: 'Definition of a quantity class. Provenance: GA4GH Phenopackets v2 
 type: object
 properties:
   unit:
-    $ref: ./commonDefinitions.yaml#/definitions/Unit
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/commonDefinitions.yaml#/definitions/Unit
   value:
     description: The value of the quantity in the units
     type: number
   referenceRange:
     description: The normal range for the value
-    $ref: ./referenceRange.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/referenceRange.yaml
     example: {}
 required:
   - unit

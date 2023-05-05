@@ -12,7 +12,7 @@
             }
         },
         "reference": {
-            "$ref": "./externalReference.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/externalReference.json",
             "description": "Representation of the source of the evidence",
             "example": {
                 "id": "PMID:30962759",

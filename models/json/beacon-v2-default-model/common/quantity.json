@@ -4,12 +4,12 @@
     "description": "Definition of a quantity class. Provenance: GA4GH Phenopackets v2 `Quantity`",
     "properties": {
         "referenceRange": {
-            "$ref": "./referenceRange.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/referenceRange.json",
             "description": "The normal range for the value",
             "example": {}
         },
         "unit": {
-            "$ref": "./commonDefinitions.json#/definitions/Unit"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Unit"
         },
         "value": {
             "description": "The value of the quantity in the units",

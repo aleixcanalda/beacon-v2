@@ -2,46 +2,46 @@
     "$comment": "version: ga4gh-beacon-cohort-v2.0.0",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": true,
-    "definitions": {
+    "$defs": {
         "CohortCriteria": {
             "description": "Criteria used for defining the cohort. It is assumed that all cohort participants will match or NOT match such criteria.",
             "properties": {
                 "ageRange": {
-                    "$ref": "../common/ageRange.json",
+                    "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/ageRange.json",
                     "description": "Individual age range in cohort inclusion criteria"
                 },
                 "diseaseConditions": {
                     "description": "Diseases in cohort inclusion criteria",
                     "items": {
-                        "$ref": "../common/disease.json"
+                        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/disease.json"
                     },
                     "type": "array"
                 },
                 "ethnicities": {
                     "description": "Ethnias in cohort inclusion criteria",
                     "items": {
-                        "$ref": "../common/commonDefinitions.json#/definitions/Ethnicity"
+                        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Ethnicity"
                     },
                     "type": "array"
                 },
                 "genders": {
                     "description": "Gender(s) in cohort inclusion criteria",
                     "items": {
-                        "$ref": "../common/commonDefinitions.json#/definitions/Sex"
+                        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Sex"
                     },
                     "type": "array"
                 },
                 "locations": {
                     "description": "Geographic location(s) in cohort inclusion criteria",
                     "items": {
-                        "$ref": "../common/commonDefinitions.json#/definitions/GeographicLocation"
+                        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/GeographicLocation"
                     },
                     "type": "array"
                 },
                 "phenotypicConditions": {
                     "description": "Phenotypic condition(s) in cohort inclusion criteria",
                     "items": {
-                        "$ref": "../common/phenotypicFeature.json"
+                        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/phenotypicFeature.json"
                     },
                     "type": "array"
                 }

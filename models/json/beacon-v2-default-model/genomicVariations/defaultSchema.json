@@ -2,7 +2,7 @@
     "$comment": "version: ga4gh-beacon-variant-v2.0.0",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": true,
-    "definitions": {
+    "$defs": {
         "CaseLevelVariant": {
             "description": "",
             "properties": {
@@ -252,7 +252,7 @@
                         ]
                     ],
                     "items": {
-                        "$ref": "../common/externalReference.json"
+                        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/externalReference.json"
                     },
                     "type": "array"
                 }

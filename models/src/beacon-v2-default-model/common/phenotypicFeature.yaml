@@ -42,15 +42,15 @@ properties:
         label: Displaced fracture
   onset:
     description: Age or time at which the feature was first observed.
-    $ref: ./timeElement.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/timeElement.yaml
   resolution:
     description: Age or time at which the feature resolved or abated.
-    $ref: ./timeElement.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/timeElement.yaml
   evidence:
     description: The evidence for an assertion of the observation of a type. RECOMMENDED.
-    $ref: ./evidence.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/evidence.yaml
   severity:
-    $ref: ./commonDefinitions.yaml#/definitions/SeverityLevel
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/commonDefinitions.yaml#/definitions/SeverityLevel
     examples:
       - id: HP:0012828
         label: Severe

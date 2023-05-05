@@ -189,35 +189,35 @@ definitions:
           Geographic location(s) in cohort inclusion criteria
         type: array
         items:
-          $ref: ../common/commonDefinitions.yaml#/definitions/GeographicLocation
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/commonDefinitions.yaml#/definitions/GeographicLocation
       genders:
         description: >-
           Gender(s) in cohort inclusion criteria
         type: array
         items:
-          $ref: ../common/commonDefinitions.yaml#/definitions/Sex
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/commonDefinitions.yaml#/definitions/Sex
       ethnicities:
         description: >-
           Ethnias in cohort inclusion criteria
         type: array
         items:
-          $ref: ../common/commonDefinitions.yaml#/definitions/Ethnicity
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/commonDefinitions.yaml#/definitions/Ethnicity
       diseaseConditions:
         description: >-
           Diseases in cohort inclusion criteria
         type: array
         items:
-          $ref: ../common/disease.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/disease.yaml
       phenotypicConditions:
         description: >-
           Phenotypic condition(s) in cohort inclusion criteria
         type: array
         items:
-          $ref: ../common/phenotypicFeature.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/phenotypicFeature.yaml
       ageRange:
         description: >-
           Individual age range in cohort inclusion criteria
-        $ref: ../common/ageRange.yaml
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/ageRange.yaml
   DataTypesArray:
     description: >-
       Type of information. Preferably values from Genomics Cohorts Knowledge

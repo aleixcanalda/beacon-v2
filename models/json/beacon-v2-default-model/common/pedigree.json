@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": true,
-    "definitions": {
+    "$defs": {
         "pedigreeMember": {
             "examples": [
                 {
@@ -100,7 +100,7 @@
     "description": "Pedigree studies in which the individual is part of.",
     "properties": {
         "disease": {
-            "$ref": "../common/disease.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/disease.json"
         },
         "id": {
             "description": "Pedigree identifier.",

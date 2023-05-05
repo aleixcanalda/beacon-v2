@@ -3,7 +3,7 @@
     "description": "Class describing a clinical procedure or intervention. Provenance: GA4GH Phenopackets v2 `Procedure`",
     "properties": {
         "ageAtProcedure": {
-            "$ref": "./timeElement.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/timeElement.json",
             "description": "Compares to Phenopackets v2 `Procedure.performed`"
         },
         "bodySite": {

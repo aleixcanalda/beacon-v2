@@ -3,9 +3,9 @@ g_variant:
   type: object
   properties:
     assemblyId:
-      $ref: ./requestParametersComponents.yaml#/definitions/Assembly
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/genomicVariations/requestParametersComponents.yaml#/definitions/Assembly
     referenceName:
-      $ref: ./requestParametersComponents.yaml#/definitions/RefSeqId
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/genomicVariations/requestParametersComponents.yaml#/definitions/RefSeqId
     start:
       description: >-
         Precise or fuzzy start coordinate position(s), allele locus
@@ -51,9 +51,9 @@ g_variant:
       minItems: 0
       maxItems: 2
     referenceBases:
-      $ref: ./requestParametersComponents.yaml#/definitions/ReferenceBases
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/genomicVariations/requestParametersComponents.yaml#/definitions/ReferenceBases
     alternateBases:
-      $ref: ./requestParametersComponents.yaml#/definitions/AlternateBases
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/genomicVariations/requestParametersComponents.yaml#/definitions/AlternateBases
     variantType:
       description: >-
         The `variantType` is used to query variants which are not defined through
@@ -98,7 +98,7 @@ g_variant:
       format: int64
       minimum: 1
     mateName:
-      $ref: ./requestParametersComponents.yaml#/definitions/RefSeqId
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/genomicVariations/requestParametersComponents.yaml#/definitions/RefSeqId
     geneId:
       description: >-
         * A gene identifier

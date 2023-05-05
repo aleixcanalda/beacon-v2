@@ -25,13 +25,13 @@ properties:
       - id: NCIT:C78373
         label: Dietary
   ageAtOnset:
-    $ref: ./age.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/age.yaml
   doseIntervals:
     type: array
     items:
-      $ref: ./doseInterval.yaml
+      $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/doseInterval.yaml
   cumulativeDose:
-    $ref: ./quantity.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/quantity.yaml
 required:
   - treatmentCode
 additionalProperties: true

@@ -3,11 +3,11 @@
     "description": "Age range definition. Provenance: GA4GH Phenopackets v2 `AgeRange`",
     "properties": {
         "end": {
-            "$ref": "./age.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/age.json",
             "description": "Represents age as an ISO8601 duration (e.g., P59Y)."
         },
         "start": {
-            "$ref": "./age.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/age.json",
             "description": "Represents age as an ISO8601 duration (e.g., P18Y)."
         }
     },

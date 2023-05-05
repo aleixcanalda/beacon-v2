@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": true,
-    "definitions": {
+    "$defs": {
         "Endpoint": {
             "properties": {
                 "endpoints": {
@@ -64,7 +64,7 @@
     "description": "Map of a Beacon, its entry types and endpoints. It isconceptually similar to a website sitemap.",
     "properties": {
         "$schema": {
-            "$ref": "../common/beaconCommonComponents.json#/definitions/$schema"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/$schema"
         },
         "endpointSets": {
             "additionalProperties": {

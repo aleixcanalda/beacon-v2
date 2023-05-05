@@ -6,9 +6,9 @@ description: >-
   information about the ontologies the filters belong to.
 properties:
   meta:
-    $ref: ./sections/beaconInformationalResponseMeta.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/sections/beaconInformationalResponseMeta.yaml
   response:
-    $ref: ./sections/beaconFilteringTermsResults.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/sections/beaconFilteringTermsResults.yaml
 required:
   - meta
   - response

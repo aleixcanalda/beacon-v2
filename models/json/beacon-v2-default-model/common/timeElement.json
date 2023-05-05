@@ -4,19 +4,19 @@
     "description": "Definition of a wrapper for various time descriptors. This follows the Phenopackets structure https://github.com/phenopackets/phenopacket-schema/blob/v2/docs/time-element.rst",
     "oneOf": [
         {
-            "$ref": "./age.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/age.json"
         },
         {
-            "$ref": "./ageRange.json"
+            "$ref": ".¡https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/ageRange.json"
         },
         {
-            "$ref": "./gestationalAge.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/gestationalAge.json"
         },
         {
-            "$ref": "./commonDefinitions.json#/definitions/Timestamp"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Timestamp"
         },
         {
-            "$ref": "./timeInterval.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/timeInterval.json"
         },
         {
             "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/ontologyTerm.json"

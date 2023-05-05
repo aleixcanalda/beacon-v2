@@ -4,7 +4,7 @@
     "description": "Exposures (lifestyle, behavioural exposures) occurred to individual, defined by exposure ID, date and age of onset, dose, and duration.",
     "properties": {
         "ageAtExposure": {
-            "$ref": "../common/age.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/age.json"
         },
         "date": {
             "description": "Date of the exposure in ISO8601 format.",
@@ -33,7 +33,7 @@
             ]
         },
         "unit": {
-            "$ref": "../common/commonDefinitions.json#/definitions/Unit",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Unit",
             "description": "Unit of the exposure. Recommended from NCIT Unit of Category ontology term (NCIT:C42568) descendants."
         },
         "value": {

@@ -109,7 +109,7 @@ definitions:
           (e.g. dbSNP, ClinVar, ClinGen, COSMIC), as `externalReferences` with CURIE(s).
         type: array
         items:
-          $ref: ../common/externalReference.yaml
+          $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/externalReference.yaml
         examples:
           -   - id: dbSNP:rs587780345
                 reference: https://www.ncbi.nlm.nih.gov/snp/rs587780345

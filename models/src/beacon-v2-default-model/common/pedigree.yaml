@@ -8,7 +8,7 @@ properties:
     type: string
     example: Pedigree1001
   disease:
-    $ref: ../common/disease.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/disease.yaml
   numSubjects:
     description: Total number of subjects in pedigree.
     type: integer

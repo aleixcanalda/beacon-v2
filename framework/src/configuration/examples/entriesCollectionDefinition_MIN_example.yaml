@@ -8,7 +8,7 @@ partOfSpecification: Beacon v2.0
 defaultSchema:
   id: datasetDefaultSchema
   name: Default schema for datasets
-  referenceToSchemaDefinition: ./datasets/defaultSchema.json
+  referenceToSchemaDefinition: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/defaultSchema.json
   schemaVersion: v.2
 aCollectionOf:
   - id: exampleEntry

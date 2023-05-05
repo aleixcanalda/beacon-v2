@@ -32,6 +32,6 @@ properties:
     example: '2010-07-10'
   ageAtProcedure:
     description: Compares to Phenopackets v2 `Procedure.performed`
-    $ref: ./timeElement.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/timeElement.yaml
 required:
   - procedureCode

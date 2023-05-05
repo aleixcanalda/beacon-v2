@@ -7,31 +7,31 @@ properties:
     description: Added here to allow the example to comply with the 'additionalProperties:true'
       restriction.
   beaconId:
-    $ref: ../beaconCommonComponents.yaml#/definitions/BeaconId
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/BeaconId
   apiVersion:
-    $ref: ../beaconCommonComponents.yaml#/definitions/ApiVersion
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/ApiVersion
   beaconError:
-    $ref: ../beaconCommonComponents.yaml#/definitions/BeaconError
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/BeaconError
   listOfSchemas:
-    $ref: ../beaconCommonComponents.yaml#/definitions/ListOfSchemas
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/ListOfSchemas
   schemasPerEntity:
-    $ref: ../beaconCommonComponents.yaml#/definitions/SchemasPerEntity
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/SchemasPerEntity
   pagination:
-    $ref: ../beaconCommonComponents.yaml#/definitions/Pagination
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Pagination
   includeResultsetResponses:
-    $ref: ../beaconCommonComponents.yaml#/definitions/IncludeResultsetResponses
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/IncludeResultsetResponses
   filters:
-    $ref: ../beaconCommonComponents.yaml#/definitions/Filters
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Filters
   exists:
-    $ref: ../beaconCommonComponents.yaml#/definitions/Exists
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Exists
   numTotalResults:
-    $ref: ../beaconCommonComponents.yaml#/definitions/NumTotalResults
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/NumTotalResults
   info:
-    $ref: ../beaconCommonComponents.yaml#/definitions/Info
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Info
   handover:
-    $ref: ../beaconCommonComponents.yaml#/definitions/Handover
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Handover
   handoverType:
-    $ref: ../beaconCommonComponents.yaml#/definitions/HandoverType
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/HandoverType
   listOfHandovers:
-    $ref: ../beaconCommonComponents.yaml#/definitions/ListOfHandovers
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/ListOfHandovers
 additionalProperties: false

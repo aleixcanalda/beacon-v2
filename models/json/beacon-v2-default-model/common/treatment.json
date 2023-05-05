@@ -5,14 +5,14 @@
     "description": "Treatment(s) prescribed/administered, defined by treatment ID, date and age of onset, dose, schedule and duration.",
     "properties": {
         "ageAtOnset": {
-            "$ref": "./age.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/age.json"
         },
         "cumulativeDose": {
-            "$ref": "./quantity.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/quantity.json"
         },
         "doseIntervals": {
             "items": {
-                "$ref": "./doseInterval.json"
+                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/doseInterval.json"
             },
             "type": "array"
         },

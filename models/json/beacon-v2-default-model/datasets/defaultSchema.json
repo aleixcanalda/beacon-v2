@@ -5,14 +5,14 @@
     "description": "A dataset available in the beacon",
     "properties": {
         "createDateTime": {
-            "$ref": "../common/commonDefinitions.json#/definitions/Timestamp",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Timestamp",
             "description": "The time the dataset was created (ISO 8601 format)",
             "examples": [
                 "2017-01-17T20:33:40Z"
             ]
         },
         "dataUseConditions": {
-            "$ref": "../common/dataUseConditions.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/dataUseConditions.json",
             "description": "Data use conditions applying to this dataset."
         },
         "description": {
@@ -47,7 +47,7 @@
             "type": "string"
         },
         "updateDateTime": {
-            "$ref": "../common/commonDefinitions.json#/definitions/Timestamp",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Timestamp",
             "description": "The time the dataset was updated in (ISO 8601 format)",
             "examples": [
                 "2017-01-17T20:33:40Z"

@@ -3,7 +3,7 @@
     "description": "Boolean (true/false) response section.",
     "properties": {
         "exists": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/Exists"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/Exists"
         }
     },
     "required": [

@@ -1,10 +1,10 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": true,
-    "definitions": {
+    "$defs": {
         "EntryTypes": {
             "additionalProperties": {
-                "$ref": "./entryTypeDefinition.json",
+                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/configuration/entryTypeDefinition.json",
                 "type": "object"
             },
             "description": "This is a dictionary of the entry types implemented in this Beacon instance.",

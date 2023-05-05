@@ -12,7 +12,7 @@
         ]
     },
     "response": {
-        "$schema": "../../configuration/entryTypesSchema.json",
+        "$schema": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/configuration/entryTypesSchema.json",
         "entryTypes": {
             "dataset": {
                 "aCollectionOf": [
@@ -25,12 +25,12 @@
                 "defaultSchema": {
                     "id": "datasetDefaultSchema",
                     "name": "Default schema for datasets",
-                    "referenceToSchemaDefinition": "./datasets/defaultSchema.json",
+                    "referenceToSchemaDefinition": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/defaultSchema.json",
                     "schemaVersion": "v.2"
                 },
                 "description": "A Dataset is a collection of records, like rows in a database or cards in a cardholder.",
                 "endpoint": "/datasets",
-                "filteringTermsReference": "./datasets/filteringTerms.json",
+                "filteringTermsReference": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/filteringTerms.json",
                 "id": "dataset",
                 "name": "Dataset",
                 "ontologyTermForThisType": {

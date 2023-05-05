@@ -6,11 +6,11 @@ description: >-
 type: object
 properties:
   $schema:
-    $ref: ../common/beaconCommonComponents.yaml#/definitions/$schema
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/$schema
   meta:
     description: >-
       Information relevant for building the response.
-    $ref: ./beaconRequestMeta.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/requests/beaconRequestMeta.yaml
   query:
     $ref: '#/definitions/BeaconQuery'
 definitions:
@@ -22,29 +22,29 @@ definitions:
       requestParameters:
         description: >-
           Parameters used for the entry type specific query elements.
-        $ref: ./requestParameters.yaml
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/requests/requestParameters.yaml
       filters:
         description: >-
           Ontology based filters. Using CURIE syntax is encouraged.
-        $ref: ./filteringTerms.yaml
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/requests/filteringTerms.yaml
       includeResultsetResponses:
-        $ref: ../common/beaconCommonComponents.yaml#/definitions/IncludeResultsetResponses
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/IncludeResultsetResponses
       pagination:
         description: >-
           Pagination parameters applied to response documents, in case of record
           level granularity.
-        $ref: ../common/beaconCommonComponents.yaml#/definitions/Pagination
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Pagination
       requestedGranularity:
         description: >-
           Requested granularity for the response. Beacons do not have to respond
           with the requested granularity, e.g. may respond with count results
           although record level granularity had been requested but indicate the
           granularity of the response in the response's metadata.
-        $ref: ../common/beaconCommonComponents.yaml#/definitions/Granularity
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/Granularity
       testMode:
         description: >-
           Used for indicating that a request or response is done in a test
           context.
-        $ref: ../common/beaconCommonComponents.yaml#/definitions/TestMode
+        $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/common/beaconCommonComponents.yaml#/definitions/TestMode
 required:
   - meta

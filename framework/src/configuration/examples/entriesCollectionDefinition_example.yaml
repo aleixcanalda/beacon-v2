@@ -10,13 +10,13 @@ description: A Dataset is a collection of records, like rows in a database or ca
 defaultSchema:
   id: datasetDefaultSchema
   name: Default schema for datasets
-  referenceToSchemaDefinition: ./datasets/defaultSchema.json
+  referenceToSchemaDefinition: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/defaultSchema.json
   schemaVersion: v.2
 aCollectionOf:
   - id: exampleEntry
     name: Example entries
 endpoint: /datasets
-filteringTermsReference: ./datasets/filteringTerms.json
+filteringTermsReference: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/filteringTerms.json
 additionallySupportedSchemas:
   - id: ohdsi-atlas-cohort
     name: OHDSI ATLAS Cohort

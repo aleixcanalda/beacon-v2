@@ -5,7 +5,7 @@
     "description": "This element represents a block of time in which the dosage of a medication was constant. For example, to represent a period of 30 mg twice a day for an interval of 10 days, we would use a Quantity element to represent the individual 30 mg dose, and OntologyClass element to represent twice a day, and an Interval element to represent the 10-day interval. Provenance: Phenopackets v2",
     "properties": {
         "interval": {
-            "$ref": "./timeInterval.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/timeInterval.json",
             "description": "The specific interval over which the dosage was administered in the indicated quantity.",
             "examples": [
                 {
@@ -15,7 +15,7 @@
             ]
         },
         "quantity": {
-            "$ref": "./quantity.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/quantity.json"
         },
         "scheduleFrequency": {
             "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/ontologyTerm.json",

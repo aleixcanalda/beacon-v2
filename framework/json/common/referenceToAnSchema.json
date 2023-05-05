@@ -3,7 +3,7 @@
     "additionalProperties": true,
     "allOf": [
         {
-            "$ref": "./elementWithDescription.json"
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/json/common/elementWithDescription.json"
         },
         {
             "properties": {

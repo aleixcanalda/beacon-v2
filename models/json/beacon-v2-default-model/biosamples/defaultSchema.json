@@ -87,7 +87,7 @@
         "measurements": {
             "description": "List of measurements of the sample.",
             "items": {
-                "$ref": "../common/measurement.json"
+                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/measurement.json"
             },
             "type": "array"
         },
@@ -99,7 +99,7 @@
             "type": "string"
         },
         "obtentionProcedure": {
-            "$ref": "../common/procedure.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/procedure.json",
             "description": "Ontology value from NCIT Intervention or Procedure ontology term (NCIT:C25218) describing the procedure for sample obtention, e.g. NCIT:C15189 (biopsy).",
             "examples": [
                 {
@@ -150,7 +150,7 @@
         "phenotypicFeatures": {
             "description": "List of phenotypic abnormalities of the sample. RECOMMENDED.",
             "items": {
-                "$ref": "../common/phenotypicFeature.json"
+                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/phenotypicFeature.json"
             },
             "type": "array"
         },

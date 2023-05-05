@@ -7,11 +7,11 @@ properties:
     description: >-
       Information about the response that could be relevant for the Beacon
       client in order to interpret the results.
-    $ref: ./sections/beaconInformationalResponseMeta.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/responses/sections/beaconInformationalResponseMeta.yaml
   response:
     description: >-
       Returning the Beacon Entry Types.
-    $ref: ../configuration/entryTypesSchema.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/framework/src/configuration/entryTypesSchema.yaml
 required:
   - meta
   - response

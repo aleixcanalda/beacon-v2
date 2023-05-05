@@ -18,7 +18,7 @@
             "type": "number"
         },
         "unit": {
-            "$ref": "./commonDefinitions.json#/definitions/Unit",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/common/commonDefinitions.json#/definitions/Unit",
             "description": "The kind of unit.",
             "examples": [
                 {

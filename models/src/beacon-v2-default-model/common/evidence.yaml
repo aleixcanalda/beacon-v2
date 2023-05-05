@@ -14,7 +14,7 @@ properties:
   reference:
     description: >-
       Representation of the source of the evidence
-    $ref: ./externalReference.yaml
+    $ref: https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/src/beacon-v2-default-model/common/externalReference.yaml
     example:
       id: PMID:30962759
       label: Recurrent Erythema Nodosum in a Child with a SHOC2 Gene Mutation
