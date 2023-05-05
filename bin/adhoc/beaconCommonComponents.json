@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "definitions": {
+    "$defs": {
         "$schema": {
             "$comment": "TO REVIEW: adding a `format` or `regex` attribute that validates correctly against a file path (relative).",
             "description": "Refers to the JSON Schema which describes the set of valid attributes for this particular document type. This attribute is mostly used in schemas that should be tested in Beacon implementations.",
@@ -104,7 +104,7 @@
             "type": "object"
         },
         "HandoverType": {
-            "$ref": "./ontologyTerm.json",
+            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/bin/adhoc/ontologyTerm.json",
             "description": "Handover type, as an Ontology_term object with CURIE syntax for the `id` value. Use `CUSTOM` for the `id` when no ontology is available.",
             "examples": [
                 {

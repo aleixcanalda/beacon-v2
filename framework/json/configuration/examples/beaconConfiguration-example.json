@@ -17,7 +17,7 @@
             },
             "description": "A Dataset is a collection of records, like rows in a database or cards in a cardholder.",
             "endpoint": "/datasets",
-            "filteringTermsReference": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2/main/models/json/beacon-v2-default-model/datasets/filteringTerms.json",
+            "filteringTermsReference": "/datasets/filteringTerms.json",
             "id": "dataset",
             "name": "Dataset",
             "nonFilteredQueriesAllowed": true,

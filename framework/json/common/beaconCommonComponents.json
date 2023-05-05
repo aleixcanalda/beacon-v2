@@ -219,7 +219,7 @@
                 "schema": {
                     "$comment": "TO DO: Add the correct format as 'uri' or 'regex'",
                     "examples": [
-                        "./ga4gh-beacon-dataset-v2.0.0",
+                        "ga4gh-beacon-dataset-v2.0.0",
                         "https://www.example.org/schemas/ga4gh-beacon-dataset-v2.0.0.json"
                     ],
                     "type": "string"
